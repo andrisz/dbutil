@@ -2,7 +2,7 @@ Universal connector/SQL query placeholder updater for MySQL, PostgreSQL and Orac
 
 Build project with tags mysql, postgres or oracle. 
 
-Connect to datbase with dbutil.Connect(<host:[port]>, <user>, <password>, <dbname>)
+Connect to datbase with dbutil.Connect(\<host:[port]\>, \<user\>, \<password\>, \<dbname\>)
 
 Use '?' for placeholders like MySQL and c call dbutil.SetPlaceholders() to translate it to native format.
 
