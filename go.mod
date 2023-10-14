@@ -1,4 +1,4 @@
-module dbutil
+module github.com/andrisz/dbutil
 
 go 1.18
 
